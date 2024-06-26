@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-reusable-workflow:
-  uses: Chris366-tech/workflow-reusable-example/.github/workflows/reusable-workflow.yml@main
-  with:
-    name: 'GitHub User'
-    run-tests: true
+    uses: Chris366-tech/workflow-reusable-example/.github/workflows/reusable-workflow.yml@main
+    with:
+      name: 'GitHub User'
+      run-tests: true
